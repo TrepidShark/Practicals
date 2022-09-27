@@ -1,8 +1,11 @@
+import random
+
+
 def main():
     score = float(input("Enter score: "))
     while score <= 0:
         score = float(input("Enter score: "))
-    gets_grade(score)
+    # score = random.randint(1, 100)
     print(f"Your grade with a score of {score} is {gets_grade(score)}")
 
 
@@ -16,5 +19,6 @@ def gets_grade(score):
             return "Passable"
         else:
             return "Bad"
+
 
 main()
