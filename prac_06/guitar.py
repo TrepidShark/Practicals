@@ -1,6 +1,6 @@
 """
-Start time:
-Finish Time:
+Start time: 12:34
+Finish Time: 2:10
 """
 
 
